@@ -1,0 +1,48 @@
+body {
+    color: #000;
+    font-family: sans-serif;
+    padding: 20px 0px;
+    margin: 0px;
+    font-size: 13px;
+    background: url(bg.png) top left repeat;
+}
+a {
+    text-shadow: none;
+    color: #0d638f;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font-size:35px;
+}
+.demo {
+    width: 980px;
+    margin: 0px auto;
+}
+
+.options {
+    width: 200px;
+    float: left;
+    margin-top: 30px;
+}
+
+.options h3 {
+    font-size: 20px;
+}
+
+.options a {
+    padding: 12px 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    background: #535353;
+    color: #FFF;
+    text-decoration: none;
+}
+a.backLink {
+    float:right;
+    margin-bottom:10px;
+}
