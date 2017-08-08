@@ -50,17 +50,14 @@ This menu has been tested and works with all the following browsers:
 How to use
 ===========
 
-=> Add jQuery file before closing body tag
-   <script src="js/jquery-1.10.1.min.js" type="text/javascript"></script>
+=> Add jQuery file before closing body tag 
+<script src="js/jquery-1.10.1.min.js" type="text/javascript"></script>
 
+=> Included aceResponsiveMenu.js after jQuery  
+<script src="js/ace-responsive-menu.js" type="text/javascript"></script>
 
-=> Included aceResponsiveMenu.js after jQuery
-   <script src="js/ace-responsive-menu.js" type="text/javascript"></script>
-
-
-=> Include “ace-responsive-menu.css” to the head of your document
-   <link href="css/ace-responsive-menu.css" rel="stylesheet" type="text/css" />
-
+=> Include “ace-responsive-menu.css” to the head of your document   
+<link href="css/ace-responsive-menu.css" rel="stylesheet" type="text/css" />
 
 => Here is the Markup for Responsive Menu structure:
 
