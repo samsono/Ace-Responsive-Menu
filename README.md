@@ -24,7 +24,7 @@ Features
 Demo
 ====
 
-http://webthemez.com/demo/ace-responsive-menu/index.html
+https://webthemez.com/demo/ace-responsive-menu/index.html
 
 
 Events
