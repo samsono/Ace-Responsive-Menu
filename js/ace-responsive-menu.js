@@ -91,7 +91,7 @@ Email : samson3d@gmail.com
             // Function for Vertical/Responsive Menu on mouse click
             $aceMenu.on('click', '> li a', function () {
                 if ($aceMenu.hasClass('collapse') === false) {
-                    return false;
+                    //return false;
                 }
                 $(this).off('mouseover', '> li a');
                 if ($(this).parent().hasClass('menu-active')) {
