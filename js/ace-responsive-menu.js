@@ -3,6 +3,7 @@ Ace Responsive Menu Plugin
 Version: 1.0
 Author: Samson.Onna 
 Email : samson3d@gmail.com
+Website: www.webthemez.com
 ----------------------------------------*/
 
 (function ($) {
@@ -26,7 +27,7 @@ Email : samson3d@gmail.com
 
         // Initilizing        
         $aceMenu.find('ul').addClass("sub-menu");
-        $aceMenu.find('ul').siblings('a').append('<span class="arrow "></span>');
+       // $aceMenu.find('ul').siblings('a').append('<span class="arrow "></span>');
         if ($menuStyle == 'accordion') { $(this).addClass('collapse'); }
 
         // Window resize on menu breakpoint 
@@ -72,7 +73,7 @@ Email : samson3d@gmail.com
                 if ($aceMenu.hasClass('collapse') === true) {
                     return false;
                 }
-                $(this).off('click', '> li a');
+               // $(this).off('click', '> li a');
                 $(this).parent('li').siblings().children('.sub-menu').stop(true, true).slideUp($animationSpeed).removeClass('slide').removeAttr('style').stop();
                 $(this).parent().addClass('menu-active').children('.sub-menu').slideDown($animationSpeed).addClass('slide');
                 return;
@@ -113,4 +114,3 @@ Email : samson3d@gmail.com
         //End of Main function
     }
 })(jQuery);
-
