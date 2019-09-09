@@ -3,6 +3,7 @@ Ace Responsive Menu Plugin
 Version: 1.0
 Author: Samson Onna
 E-mail: samson3d@gmail.com
+Website: www.webthemez.com
 ----------------------------------------*/
 /* Import Fonts
 ----------------------------------------*/
@@ -22,11 +23,11 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    background: #333;  
+    background: #333;
     float:left;
     width:100%;
     font-family: 'Roboto', sans-serif;
-    border-bottom: 3px solid #FD5025;        
+    /* border-bottom: 3px solid #FD5025; */
 }
 .ace-responsive-menu li{
     list-style: none;
@@ -68,7 +69,7 @@ ul {
     padding-right: 10px;
 }
 .ace-responsive-menu li.menu-active > a {
-    background: #272727 !important;
+    background: #272727;
     color:#fff;
 }
 .ace-responsive-menu li .menu-active {
@@ -80,11 +81,12 @@ ul {
     font-size: 16px;
     font-family: FontAwesome;
     height: auto;
-    content: "\f107";
+    content: " \276F";
     font-weight: 300;
     text-shadow: none;
     width: 10px;
     display: inline-block;
+	transform: rotate(90deg);
 }
 .ace-responsive-menu li ul.sub-menu li > a > .arrow:before {
     content: "\f105" !important;
@@ -95,6 +97,7 @@ ul {
     clear: both;
     margin: 0;
     position: absolute;
+    z-index: 999;
 }
 .ace-responsive-menu li ul.sub-menu {
     background: #333;
@@ -317,10 +320,20 @@ ul[data-menu-style="vertical"] li a:hover {
     }
     .ace-responsive-menu > li > a > .arrow:before {
         float: right;
-        content: "\f105";
+         content: " \276F";
+		font-weight: 300;
+		text-shadow: none;
+		width: 10px;
+		display: inline-block;
+		transform: rotate(90deg);
     }
     li.menu-active > a > .arrow:before {
-        content: "\f107" !important;
+    content: " \276F";
+    font-weight: 300;
+    text-shadow: none;
+    width: 10px;
+    display: inline-block;
+	transform: rotate(90deg);
     }
     .ace-responsive-menu li ul.sub-menu > li {
         width: 100%;
@@ -343,6 +356,12 @@ ul[data-menu-style="vertical"] li a:hover {
         position: static;
     }
     .ace-responsive-menu li ul.sub-menu li.menu-active > a > .arrow:before {
-        content: "\f107" !important;
+          content: " \276F";
+    font-weight: 300;
+    text-shadow: none;
+    width: 10px;
+    display: inline-block;
+	transform: rotate(90deg);
     }
-}
+} 
+ 
